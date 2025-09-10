@@ -58,7 +58,9 @@ This guide documents the process of setting up FreePBX in a virtual environment 
    sudo systemctl restart network
    ```
 
-📸 *Insert screenshot of terminal with IP config here*
+📸 <img width="518" height="395" alt="image" src="https://github.com/user-attachments/assets/e4b53b07-150f-4c4c-a33b-cc6c2b8d717c" />
+
+
 
 ---
 

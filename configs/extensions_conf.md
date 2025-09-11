@@ -1,4 +1,4 @@
-# File: extensions.conf
+# Extensions.conf
 
 ## Purpose
 Defines the dial plan logic for internal calls.

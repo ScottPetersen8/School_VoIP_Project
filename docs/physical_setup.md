@@ -74,7 +74,7 @@ This document outlines the physical deployment test of FreePBX for internal VoIP
 
 ## GitHub Repository
 
-> _Link to be added once uploaded_
+[> _Link to be added once uploaded_](https://github.com/ScottPetersen8/School_VoIP_Project/tree/main)
 
 ---
 

@@ -1,4 +1,4 @@
-# Voicemail.conf
+# Voicemail
 
 ## Purpose
 Configures voicemail boxes and settings.

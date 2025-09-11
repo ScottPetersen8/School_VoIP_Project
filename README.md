@@ -5,7 +5,7 @@ Includes network diagrams, configs, test logs, and deployment notes.
 
 ## Project Structure
 - **configs/** → PBX configuration files  
-- **diagrams/** → Network diagrams (Visio, draw.io, etc.)  
+- **diagrams/** → Network diagrams 
 - **docs/** → Documentation, requirements, guides  
 - **test_logs/** → Testing outputs and troubleshooting notes  
 

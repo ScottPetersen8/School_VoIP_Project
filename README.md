@@ -21,14 +21,6 @@ Includes network diagrams, configs, test logs, and deployment notes.
 
   ## Network Diagram
 
-![VoIP Lab Diagram](voip_lab_diagram.png)
+(voip_lab_diagram.png)
 
-[ Yealink Phone 1 ]   [ MicroSIP Softphone ]
-          \                     /
-           \                   /
-            ---- LAN Switch ----
-                  |
-             [ FreePBX Server ]
-                  |
-           [ Yealink Phone 2 ]
 

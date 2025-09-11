@@ -67,13 +67,15 @@ This guide documents the process of setting up FreePBX in a virtual environment 
 ## 🧭 Accessing the FreePBX GUI
 
 1. Open a browser on a device in the same network.
-2. Navigate to:
+2. Navigate to your given IP address of the server that:
    ```
    http://192.168.1.100
    ```
-3. Complete the initial setup wizard.
+   Command: ip a , will show the IP address of the FreePBX server. 
+3. Complete the initial setup wizard which will prompt you to create a username and password. This will be under FreePBX Administration.
 
-📸 *Insert screenshot of FreePBX GUI login page here*
+📸 <img width="953" height="442" alt="image" src="https://github.com/user-attachments/assets/94d01510-776b-4221-8d04-4dbc5058dae4" />
+
 
 ---
 

@@ -17,5 +17,10 @@ Includes network diagrams, configs, test logs, and deployment notes.
 ## Tools & Tech
 - Asterisk / FreePBX  
 - Windows 11 test machines  
-- Virtualization / Networking tools  
+- Virtualization / Networking tools
+
+  ## Network Diagram
+
+![VoIP Lab Diagram](voip_lab_diagram.png)
+
 

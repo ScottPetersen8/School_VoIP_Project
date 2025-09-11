@@ -1,4 +1,4 @@
-# FreePBX Physical Setup Documentation
+# FreePBX Physical Setup
 
 ## Overview
 

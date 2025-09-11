@@ -22,7 +22,7 @@ Defines the dial plan logic for internal and external calls.
 ## Voicemail 
 - Enabled for all extensions
 - Voicemail timeout: 15 seconds
-  -Connectivity - Extensions - (select extension) - Advanced - Extension Options - Ring Time
+  - Connectivity - Extensions - (select extension) - Advanced - Extension Options - Ring Time
 ## Call Forwarding
 - 1002 forwards to 1003 if busy
 

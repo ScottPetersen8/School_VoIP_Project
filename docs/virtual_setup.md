@@ -10,14 +10,16 @@ This guide documents the process of setting up FreePBX in a virtual environment 
 1. Open **Hyper-V Manager**.
 2. Click **New > Virtual Machine**.
 3. Name the VM (e.g., `FreePBX-Test`).
-4. Assign memory (recommended: 2048 MB or more).
-5. Configure networking:
+4. Choose Generation 1
+5. Assign memory (recommended: 2048 MB or more).
+6. Configure networking:
    - Connect to an existing virtual switch.
-6. Create a virtual hard disk (20 GB minimum).
-7. Choose **Install an operating system from bootable image**:
-   - Select the FreePBX ISO file.
+7. Create a virtual hard disk (100 GB ideal).
+8. Choose **Install an operating system from bootable image**:
+   - Select the FreePBX ISO file(The most recent update, older version of Asterisk behave differently).
 
-📸 *Insert screenshot of VM creation wizard here*
+📸 <img width="550" height="415" alt="image" src="https://github.com/user-attachments/assets/b366d1d8-f268-40b2-bb5e-656b63ca7b89" />
+
 
 ---
 
@@ -25,10 +27,13 @@ This guide documents the process of setting up FreePBX in a virtual environment 
 
 1. Start the VM.
 2. Follow the on-screen instructions to install FreePBX.
-3. Choose default options unless customization is needed.
-4. Set root password when prompted.
+3. Choose FreePBX "PUB" installation (Seeing as the server will live on premesis, FOG works better with installations functioning on the cloud).
+4. Choose default options unless customization is needed.
+5. When it asks to "WIPE MY DISKS AND INSTALL". Choose the option without serial or test, just the default.
+6. Set root password when prompted.
 
-📸 *Insert screenshot of installation progress here*
+📸 <img width="401" height="295" alt="image" src="https://github.com/user-attachments/assets/c17a9f80-6b92-432b-b3ff-4a653471c017" />
+
 
 ---
 
@@ -53,20 +58,24 @@ This guide documents the process of setting up FreePBX in a virtual environment 
    sudo systemctl restart network
    ```
 
-📸 *Insert screenshot of terminal with IP config here*
+📸 <img width="518" height="395" alt="image" src="https://github.com/user-attachments/assets/e4b53b07-150f-4c4c-a33b-cc6c2b8d717c" />
+
+
 
 ---
 
 ## 🧭 Accessing the FreePBX GUI
 
 1. Open a browser on a device in the same network.
-2. Navigate to:
+2. Navigate to your given IP address of the server that:
    ```
    http://192.168.1.100
    ```
-3. Complete the initial setup wizard.
+   Command: ip a , will show the IP address of the FreePBX server. 
+3. Complete the initial setup wizard which will prompt you to create a username and password. This will be under FreePBX Administration.
 
-📸 *Insert screenshot of FreePBX GUI login page here*
+📸 <img width="953" height="442" alt="image" src="https://github.com/user-attachments/assets/94d01510-776b-4221-8d04-4dbc5058dae4" />
+
 
 ---
 

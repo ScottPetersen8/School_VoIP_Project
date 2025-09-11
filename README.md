@@ -19,8 +19,7 @@ Includes network diagrams, configs, test logs, and deployment notes.
 - Windows 11 test machines  
 - Virtualization / Networking tools
 
-  ## Network Diagram
 
-(voip_lab_diagram.png)
+
 
 

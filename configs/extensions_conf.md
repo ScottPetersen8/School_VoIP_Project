@@ -1,7 +1,7 @@
 # File: extensions.conf
 
 ## Purpose
-Defines the dial plan logic for internal and external calls.
+Defines the dial plan logic for internal calls.
 
 ## Key Sections
 - `[general]`: Global settings
@@ -23,8 +23,10 @@ Defines the dial plan logic for internal and external calls.
 - Enabled for all extensions
 - Voicemail timeout: 15 seconds
   - Connectivity - Extensions - (select extension) - Advanced - Extension Options - Ring Time
+    
 ## Call Forwarding
-- 1002 forwards to 1003 if busy
+- 1001 forwards to 1002 if busy
+   - Connectivity - Extensions - (select extension) - Find Me/Follow Me - (Enable) - Follow-Me List(selects who is called after the initail ring time)
 
 ## Feature Codes
 - *97 – Voicemail

@@ -31,6 +31,7 @@ Defines the dial plan logic for internal calls.
 ## Feature Codes
 - *97 – Voicemail
 - *80 – Intercom
+   - Admin - Feature Codes - (all Feature codes can be seen there)
 
 
 ## Example

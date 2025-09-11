@@ -26,7 +26,7 @@ Defines the dial plan logic for internal calls.
     
 ## Call Forwarding
 - 1001 forwards to 1002 if busy
-   - Connectivity - Extensions - (select extension) - Find Me/Follow Me - (Enable) - Follow-Me List(selects who is called after the initail ring time)
+   - Connectivity - Extensions - (select extension) - Find Me/Follow Me - (Enable) - Follow-Me List (selects who is called after the initail ring time)
 
 ## Feature Codes
 - *97 – Voicemail

@@ -1,4 +1,4 @@
-# File: pjsip.conf
+# pjsip.conf
 
 ## Purpose
 Defines SIP endpoints using the PJSIP channel driver.

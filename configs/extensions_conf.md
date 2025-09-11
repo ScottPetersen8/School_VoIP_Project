@@ -8,7 +8,7 @@ Defines the dial plan logic for internal calls.
 - `[default]`: Default context
 - `[from-internal]`: Internal call routing
 
-  # Internal Dial Plan Logic
+## Internal Dial Plan Logic
 
 ## Extensions
 - 1001 – Test1
